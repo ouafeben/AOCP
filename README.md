@@ -1,6 +1,6 @@
 # AOCP
 Autonomous Optimization Controller Placement (AOCP) is a design of a Markov game suitable to formulate the problem of controller placement in SDN and provide a system model for it ,the model has been trained using the MuZero model-based reinforcement learning algorithm.
-Firstly we worked on a initial random network wich then we used k-means to apply clustring approch which is represented by the code:   
+Firstly we worked on a initial random network wich then we used k-means to apply clustring approch which is represented by the code initial clustering.py.  
 Step 1: MuZero Environment Configuration
 
 Using the Python installed on the system.
