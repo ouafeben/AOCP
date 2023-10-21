@@ -11,9 +11,13 @@ The MuZero source code was downloaded from the DeepMind GitHub repository: GitHu
 We configured our development environment by following the instructions provided in the MuZero documentation.
 
 -On CMD we used the following commands: 
+
 1-git clone https://github.com/werner-duvaud/muzero-general.git then
+
 2-cd muzero-general
+
 3-pip install -r requirements.lock
+
 4-python muzero.py
 
 Step 2: Define the Game
