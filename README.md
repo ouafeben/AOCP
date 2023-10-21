@@ -22,6 +22,7 @@ MuZero will learn both how to play the game and how to model the underlying rule
 
 To obtain the evaluation of MuZero's performance metrics, we run
 tensorboard dev upload --logdir C:\Users\hp\muzero-general\results\these14\2023-05-21--21-26-57 --name " My latest experiment" 
--To evaluate our AOCP system in the large network ,we created a script with python creating a large network automatically as shown in code "script creating a nodes group automatically" then we aplied k-means for clusteing presented in code "cluster72nodes"
+
+-To evaluate our AOCP system in the large network ,we created a script with python creating a large network automatically as shown in code "script creating a nodes group automatically" then we aplied k-means for clusteing presented in code "cluster72nodes.py"
 for 72 nodes
 tensorboard dev upload --logdir C:\Users\hp\muzero-general\results\these14 -72nodes\2023-10-11--21-17-13--name " My latest experiment72nodes"   
