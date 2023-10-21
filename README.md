@@ -13,17 +13,15 @@ We configured our development environment by following the instructions provided
 3-pip install -r requirements.lock
 4-python muzero.py
 
-
-
 Step 2: Define the Game
-We modeled our game to train MuZero.
-We implemented the game rules in the format required by MuZero.
+We modeled our game to train MuZero as mentionned in the file gameAOCP.py, we implemented the game rules in the format required by MuZero.
 
 Step 3: Training MuZero
 We used MuZero to train our model. Training MuZero involves having the algorithm play our game, collecting training data from these games.
 MuZero will learn both how to play the game and how to model the underlying rules.
 
-To obtain the evaluation of MuZero's performance metrics, run
-tensorboard dev upload --logdir C:\Users\hp\muzero-general\results\these14\2023-05-21--21-26-57 --name " My latest experiment"   
+To obtain the evaluation of MuZero's performance metrics, we run
+tensorboard dev upload --logdir C:\Users\hp\muzero-general\results\these14\2023-05-21--21-26-57 --name " My latest experiment" 
+-To evaluate our AOCP system in the large network ,we created a script with python creating a large network automatically as shown in code "script creating a nodes group automatically" then we aplied k-means for clusteing presented in code "cluster72nodes"
 for 72 nodes
 tensorboard dev upload --logdir C:\Users\hp\muzero-general\results\these14 -72nodes\2023-10-11--21-17-13--name " My latest experiment72nodes"   
